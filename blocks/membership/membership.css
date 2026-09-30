@@ -1,0 +1,76 @@
+.membership {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.membership-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.membership-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.08);
+  transition: all .35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.membership-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.membership-card.featured {
+  background: linear-gradient(135deg,#ff6b00,#ff9800);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.membership-card.featured::before {
+  content: "POPULAR";
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background: #111;
+  color: #fff;
+  padding: 6px 40px;
+  font-size: 12px;
+  transform: rotate(45deg);
+}
+
+.membership-plan {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.membership-price {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.membership-feature {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.membership-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  background: #111;
+  color: #fff;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.membership-btn:hover {
+  background
