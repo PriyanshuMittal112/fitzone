@@ -1,0 +1,21 @@
+.programs {
+  padding: 80px 40px;
+}
+
+.programs > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 24px;
+}
+
+.programs .card {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.programs .card:hover {
+  transform: translateY(-8px);
+}
