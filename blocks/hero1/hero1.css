@@ -1,0 +1,110 @@
+.hero1 {
+  background: linear-gradient(135deg, #071a3d, #132d63);
+  border-radius: 24px;
+  padding: 80px 60px;
+  overflow: hidden;
+}
+
+.hero1 .hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero1 .hero-tag {
+  display: inline-block;
+  color: #00d4ff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero1 h1 {
+  color: #fff;
+  font-size: 64px;
+  line-height: 1.1;
+  font-weight: 800;
+  margin: 0 0 25px;
+}
+
+.hero1 p {
+  color: #d5e3ff;
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+  max-width: 600px;
+}
+
+.hero1 .hero-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero1 .btn-primary {
+  background: #00d4ff;
+  color: #041633;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero1 .btn-primary:hover {
+  transform: translateY(-3px);
+}
+
+.hero1 .btn-secondary {
+  border: 2px solid #00d4ff;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero1 .btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.hero1 .hero-right img {
+  width: 100%;
+  max-width: 550px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 768px) {
+  .hero1 {
+    padding: 50px 25px;
+  }
+
+  .hero1 .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero1 h1 {
+    font-size: 42px;
+  }
+
+  .hero1 p {
+    font-size: 18px;
+  }
+
+  .hero1 .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero1 .hero-right {
+    margin-top: 30px;
+  }
+}
