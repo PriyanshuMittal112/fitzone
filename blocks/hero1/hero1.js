@@ -38,13 +38,6 @@ ${data['secondary cta'] || 'Explore Programs'}
 </a>
 </div>
 
-      </div>
-
-      <div class="hero-right">
-<img
-'background image'] || '/media/hero-banner.jpg'}
-</div>
-
     </div>
   `;
 }
