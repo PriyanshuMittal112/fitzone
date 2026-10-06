@@ -47,12 +47,8 @@ export default function decorate(block) {
       </div>
 
       <div class="hero-right">
-        ${
-          bgImage
-            ? `${bgImage}`
-            : ''
-        }
-      </div>
+${bgImage ? `<img src="$ : ''}
+</div>
     </div>
   `;
 }
