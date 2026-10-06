@@ -206,8 +206,8 @@ header nav .nav-sections ul > li > ul > li {
     content: '';
     display: inline-block;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%) rotate(135deg);
+    top: 0.5em;
+    transform: rotate(135deg);
     right: 2px;
     width: 6px;
     height: 6px;
@@ -218,8 +218,8 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections .nav-drop[aria-expanded='true']::after {
     top: unset;
-    bottom: 0.5em;
-    transform: rotate(315deg);
+    bottom: 50%;
+transform: translateY(-50%) rotate(135deg);
   }
 
   header nav .nav-sections ul {
